@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Pisual Cells System</title>
+		<meta name="description" content="Pisual Cells System" />
+		<meta name="keywords" content="Pisual,Cells,System" />
+		<meta name="author" content="FelixSion" />
+		<link rel="shortcut icon" href="Images/ban.png">
+		<!--SEAJS加载组件-->
+		<script type="text/javascript" src="Js/JsLibrary/sea-debug.js"></script>
+		<!--SEAJS CSS 文件加载组件-->
+		<script type="text/javascript" src="Js/JsLibrary/seajs-css-debug.js"></script>
+		<!--SEAJS入口函数-->
+		<script type="text/javascript" src="Js/JsUI/main.js"></script>
+		<!--SEAJS入口加载函数-->
+		<script type="text/javascript" src="Js/JsUI/mainload.js"></script>
+		<!--jquery组件-->
+		<script type="text/javascript" src="Js/JsLibrary/jquery-2.1.1.js"></script>
+		<!--jqueryUI组件-->
+		<script type="text/javascript" src="Js/JsLibrary/jquery-ui.min.js"></script>
+		<!--modernizr测试组件-->
+		<script type="text/javascript" src="Js/JsLibrary/modernizr.custom.63321.js"></script>
+		<!--下滑标题栏-->
+		<script type="text/javascript" src="Js/JsLibrary/jquery.dropdown.js"></script>
+		<!--加载页面旋转-->
+		<script type="text/javascript" src="Js/JsLibrary/jquery.rotate.js"></script>
+		<!--加载进度模块-->
+		<script type="text/javascript" src="Js/JsLibrary/appear.min.js"></script>
+		<!--加载通知模块-->
+		<script type="text/javascript" src="Js/JsLibrary/jBox.min.js"></script>
+		<!--加载自定义菜单模块-->
+		<script type="text/javascript" src="Js/JsLibrary/context.js"></script>
+		<!--加载书页首页，自从第一代就开始使用，现在暂时使用-->
+		<script type="text/javascript" src="Js/JsLibrary/jquery.swatchbook.js"></script>
+		<!--加载视频背景模块-->
+		<script type="text/javascript" src="Js/JsLibrary/covervid.js"></script>
+		<!--加载音乐播放器模块-->
+		<script type="text/javascript" src="Js/JsLibrary/audioplayer.js"></script>
+		<!--加载视频播放器模块-->
+		<script type="text/javascript" src="Js/JsLibrary/video.js"></script>
+		<!--加载时钟模块-->
+		<script type="text/javascript" src="Js/JsLibrary/moment.min.js"></script>
+			<!--加载时钟模块-->
+		<script type="text/javascript" src="Js/JsUI/clock.js"></script>
+		<!--[if IE]>
+		<script src="Js/JsLibrary/html5.js">
+		</script>
+		<![endif]-->
+		<!-- 加载入口模块 -->
+		<script>
+			seajs.use('mainload',
+			function(mainload) {
+				mainload.run();
+			});
+			// 加载主CSS
+			seajs.use("Css/Main.css"); //加载主CSS
+			seajs.use("Css/Probars.css"); //加载进度模块CSS
+			seajs.use("Css/JBox.css"); //加载通知模块CSS 
+			seajs.use("Css/NoticeBorder.css"); //加载通知模块CSS
+			seajs.use("Css/ContextStandaLone.css"); //加载自定义菜单模块CSS  
+			seajs.use("Css/SwitchBook.css"); //加载书页首页模块CSS 
+			seajs.use("Css/SwordMenuCommon.css"); //加载Sword模块CSS
+			seajs.use("Css/Music.css"); //加载音乐模块CSS
+			seajs.use("Css/Video.css"); //加载音乐模块CSS
+			seajs.use("Css/Clock.css"); //加载音乐模块CSS
+		</script>
+	</head>
+	<!-- Pisual Cells system UI Model 为无刷新模块设计 整个UI采用了巧妙的一体化设计摆脱了页面跳转-->
+	<!-- 因为所有的内容都是在一个页面进行操作的，模块的添加与删除变得非常重要-->
+	<!-- 模块命名使用规则 顶级模块 TOPM:整个UI中持续存在 临时模块 TEMM:页面使用完成后会自行删除掉 -->
+	<!-- CELLS的设计可以极大限度的防止下载网战-->
+	<body id="body" style="display:none;">
+		</body>
+</html>

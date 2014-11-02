@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StargazerUI>
+<views>
+    <view>
+        <name>file</name>
+        <url>js/angularjs/view/filemanager.html</url>
+    </view>
+    <view>
+        <name>logo</name>
+        <url>js/angularjs/view/logostart.html</url>
+    </view>
+</views>
+</StargazerUI>

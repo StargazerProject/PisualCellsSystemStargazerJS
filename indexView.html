@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pisual Cells System StargazerJS</title>
+    <meta name="description" content="Pisual Cells System StargazerJS" />
+    <meta name="keywords" content="Pisual,Cells,System,StargazerJS" />
+    <meta name="author" content="FelixSion" />
+    <link rel="shortcut icon" href="Images/favicon.ico" />
+</head>
+<body>
+<div  id="body">
+    <div id="StargazerJSLogo">
+        <img class="StargazerJSLogo" src="img/StargazerJS.png">
+    </div>
+
+</div>
+</body>
+<!--StargazerJS是基于AngularJS和SeaJS开发的Pisual Cells System专用及通用型的UI合成、控制及分发系统-->
+<!--modernizr加载组件-->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!--SEAJS加载组件-->
+<script type="text/javascript" src="js/seajs/vendor/sea-debug.js"></script>
+<script type="text/javascript" src="js/seajs/vendor/seajs-css-debug.js"></script>
+<script type="text/javascript" src="js/seajs/vendor/seajs-circular-debug.js"></script>
+<script type="text/javascript" src="js/seajs/controller/main.js"></script><!--加载页面配置文件-->
+<script type="text/javascript" src="js/seajs/controller/mainload.js"></script><!--加载页面初始化过程文件-->
+<!--Jquery加载组件-->
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="js/vendor/jquery-ui.min.js"></script>
+<!--IE兼容组件-->
+<!--[if IE]>
+<script src="js/vendor/html5.js">
+</script>
+<![endif]-->
+<!--Sae全局初始化入口-->
+<script>
+    seajs.use('mainload',function(mainload) {mainload.run();});//加载页面初始化过程
+    seajs.use("css/main.css"); //加载主CSS
+    seajs.use("css/normalize.css"); //加载兼容组件CSS
+</script>
+</html>

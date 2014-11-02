@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StargazerUIControl>
+    <pages>
+        <page>
+            <elements>
+                <element>
+                    <name>#StargazerJSLogoimg</name>
+                    <htmlPartOne> <![CDATA[<img src="img/StargazerJS.png" id="StargazerJSLogoimg" style="margin-top:]]> </htmlPartOne>
+                    <htmlPartTwo> <![CDATA["/>]]> </htmlPartTwo>
+                    <marginTop>30</marginTop>
+                    <prependId>#StargazerJSLogo</prependId>
+                    <fadeInTime>800</fadeInTime>
+                    <waitTime>10</waitTime>
+                    <FadeOutTime>800</FadeOutTime>
+                    <WaitFadeOutTime>2000</WaitFadeOutTime>
+                    <destroyTime>3000</destroyTime>
+                </element>
+                <element>
+                    <name>#CellsLogoimg</name>
+                    <htmlPartOne> <![CDATA[<img src="img/pisual Pisual cells system.png" id="CellsLogoimg" style="margin-top:]]> </htmlPartOne>
+                    <htmlPartTwo> <![CDATA["/>]]> </htmlPartTwo>
+                    <marginTop>30</marginTop>
+                    <prependId>#StargazerJSLogo</prependId>
+                    <fadeInTime>800</fadeInTime>
+                    <waitTime>3000</waitTime>
+                    <FadeOutTime>800</FadeOutTime>
+                    <WaitFadeOutTime>5000</WaitFadeOutTime>
+                    <destroyTime>5800</destroyTime>
+                </element>
+                <element>
+                    <name>#opcLogoimg</name>
+                    <htmlPartOne> <![CDATA[<img src="img/Orange Plant Company.png" id="opcLogoimg" style="margin-top:]]> </htmlPartOne>
+                    <htmlPartTwo> <![CDATA["/>]]> </htmlPartTwo>
+                    <marginTop>30</marginTop>
+                    <prependId>#StargazerJSLogo</prependId>
+                    <fadeInTime>800</fadeInTime>
+                    <waitTime>6000</waitTime>
+                    <FadeOutTime>800</FadeOutTime>
+                    <WaitFadeOutTime>7300</WaitFadeOutTime>
+                    <destroyTime>8000</destroyTime>
+                </element>
+                <element>
+                    <name>#Systembigwhite</name>
+                    <htmlPartOne> <![CDATA[<img src="img/pisual CELLS Systembigwhite.png" id="Systembigwhite" style="margin-top:]]> </htmlPartOne>
+                    <htmlPartTwo> <![CDATA["/>]]> </htmlPartTwo>
+                    <marginTop>30</marginTop>
+                    <prependId>#StargazerJSLogo</prependId>
+                    <fadeInTime>800</fadeInTime>
+                    <waitTime>9000</waitTime>
+                    <FadeOutTime>800</FadeOutTime>
+                    <WaitFadeOutTime>10000</WaitFadeOutTime>
+                    <destroyTime>12000</destroyTime>
+                </element>
+            </elements>
+        </page>
+    </pages>
+</StargazerUIControl>
