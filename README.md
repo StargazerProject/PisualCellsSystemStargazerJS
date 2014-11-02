@@ -9,3 +9,5 @@ StargazerJS（观星者）是基于AngularJS及SeaJS开发的一套页面UI控�
 
 StargazerJS开发现在还是处于很基础的阶段，仅仅是测试模型，将在DaCaPoUI的开发中得到具体完善。
 
+这套模型需要在Web容器中运行，因为内部包含了Ajax，本地运行的话会出现跨域禁止，
+
